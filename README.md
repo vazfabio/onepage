@@ -1,4 +1,4 @@
-# One Page com HTML5 E CSS3
+# One Page com HTML5 e CSS3
 
 Desenvolvimento de um site One Page, moderno e responsivo com HTML5 e CSS3.
 
