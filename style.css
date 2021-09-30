@@ -1,6 +1,30 @@
 /*
     Folha de estilo do site One page HTML5 e CSS3
 */
+
+/* CSS Reset */
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Importação Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+/* Layout */
+
+.Container{
+    margin: 0 auto;
+}
+
 /*Smartphone Portrait*/
 
 /*Smartphone Landscape*/
@@ -8,6 +32,10 @@
 @media (min-width: 576px){
     body{
         background-color: #00ffff;
+    }
+    /* Layout */
+    .Container{
+        max-width: 540px;
     }
 }
 
@@ -17,6 +45,10 @@
     body{
         background-color: #ffff00;
     }
+    /* Layout */
+    .Container{
+        max-width: 720px;
+    }
 }
 
 /*Tablet Landscape*/
@@ -24,6 +56,10 @@
 @media(min-width: 992px){
     body{
         background-color: #ff6600;
+    }
+    /* Layout */
+    .Container{
+        max-width: 540px;
     }
 }
 
